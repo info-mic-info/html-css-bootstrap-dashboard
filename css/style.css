@@ -27,25 +27,28 @@ MAIN
 .container-wrapper{
     display: flex;
     width: 100vw;
+    margin-top: 0;
+    position: relative;
 }
 
 aside{
-    position: fixed;
-    left: 0;
-    top: 100px;
     width: 70px;
     height: 100vh;
-
-    
     background-color: rgba(7, 42, 99, 0.984);
+    margin-top: 100px;
+  
+   
+    
    
     
 }
 
 main{
     width: calc(70px + 100vw);
-    height: calc(100px + 100vh);
+    height: 100vh;
     background-color: beige;
+    margin-top: 100px;
+  
    
 }
 
