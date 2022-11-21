@@ -29,6 +29,10 @@ header{
     width: 100%;
 }
 
+.navbar-icon {
+    ;
+}
+
 /* **********************
 MAIN
 ********************** */
@@ -49,10 +53,12 @@ MAIN
     margin: auto 0;
 }
 
-
-
 .image-red{
     width: 40px;
+}
+
+.my-add i{
+    font-size: 50px;
 }
 
 
