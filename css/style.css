@@ -29,9 +29,15 @@ header{
     width: 100%;
 }
 
-.navbar-icon {
-    ;
+dd:hover {
+    background-color: grey;
 }
+
+tr:hover{
+    background-color: grey;
+}
+
+
 
 /* **********************
 MAIN
@@ -73,7 +79,7 @@ MAIN
 }
 
 aside{
-    width: 150px;
+    width: 100px;
     height: calc(100vh - 100px)  ;
     background-color: #051e34;
 }
@@ -105,3 +111,13 @@ main{
 /* **********************
 FOOTER
 ********************** */
+
+
+/* QUERY */
+
+@media screen and (min-width: 992px){
+
+    aside{
+        width: 150px;
+    }
+}
